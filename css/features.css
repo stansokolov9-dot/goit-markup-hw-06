@@ -1,0 +1,50 @@
+.section-features {
+  padding: 120px 0;
+}
+.features-item {
+  display: flex;
+  flex-direction: column;
+}
+.svg-block {
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  border: 1px solid #8e8f99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.features-title {
+  margin: 8px 0;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.features-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-item {
+  width: 264px;
+}

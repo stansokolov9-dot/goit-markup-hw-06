@@ -1,0 +1,132 @@
+.footer {
+  background: #2e2f42;
+  padding: 100px 0;
+}
+.footer .web {
+  color: #4d5ae5;
+}
+.footer-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-text-left {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+}
+.footer .container {
+  display: flex;
+}
+.footer-middle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+.footer-text-middle {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-svg {
+  display: flex;
+  gap: 16px;
+}
+.footer-svg a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #ffffff;
+}
+.footer-svg svg {
+  display: block;
+  fill: #f4f4fd;
+  width: 24px;
+  height: 24px;
+}
+.footer-svg a:hover,
+.footer-svg a:focus {
+  background-color: #31d0aa;
+}
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-right {
+  margin-left: auto;
+}
+.footer-form-row {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.text-subscribe {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-email {
+  width: 264px;
+  height: 40px;
+  padding: 13px 0 13px 16px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-email::placeholder {
+  color: #ffffff;
+}
+.footer-email:focus {
+  border: 1px solid #31d0aa;
+  outline: none;
+}
+.footer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #31d0aa;
+}
