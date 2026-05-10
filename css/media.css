@@ -1,0 +1,32 @@
+@media screen and (min-width: 320px) {
+  .logo {
+    padding: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .menu-btn {
+    display: none;
+  }
+  .nav {
+    display: flex;
+  }
+  .address {
+    display: flex;
+  }
+  .menu-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+  .menu-btn {
+    display: none;
+  }
+}

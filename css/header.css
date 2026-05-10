@@ -1,5 +1,5 @@
 .section-header {
-   box-shadow:
+  box-shadow:
     0 1px 6px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 2px 1px 0 rgba(46, 47, 66, 0.08);
@@ -7,6 +7,7 @@
 .section-header .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .web {
   color: #4d5ae5;
@@ -24,6 +25,9 @@
   display: flex;
   gap: 76px;
   align-items: center;
+}
+.nav {
+  display: none;
 }
 .nav ul {
   display: flex;
@@ -64,6 +68,7 @@
 }
 .address {
   margin-left: auto;
+  display: none;
 }
 .address ul {
   display: flex;
@@ -84,4 +89,10 @@
 }
 .header-contact:focus {
   color: #404bbf;
+}
+.menu-btn {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }

@@ -41,10 +41,16 @@ button {
 }
 
 /* helper */
-.container {
+/* .container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+} */
+ .container {
+  width: 100%;
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 .sr-only {
   position: absolute;
@@ -57,4 +63,9 @@ button {
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
   margin: -1px;
+}
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
