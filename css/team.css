@@ -19,7 +19,6 @@
   display: block;
 }
 .team-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -31,8 +30,6 @@
   padding: 32px 16px;
 }
 .name {
-  font-family: "Roboto";
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;

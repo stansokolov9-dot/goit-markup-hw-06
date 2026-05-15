@@ -48,6 +48,7 @@
 }
 .header-link.current {
   color: #404bbf;
+  margin-bottom: 1px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -70,14 +71,16 @@
   margin-left: auto;
   display: none;
 }
-.address ul {
-  display: flex;
-  gap: 40px;
-  align-items: center;
+@media screen and (min-width: 1158px) {
+  .address ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+  }
 }
 .header-contact {
   display: block;
-  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

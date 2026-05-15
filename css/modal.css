@@ -32,7 +32,7 @@
   flex-direction: column;
   align-items: center;
 }
-.modal-overlay.is-open {
+.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -142,7 +142,7 @@
 .checkbox-custom {
   width: 16px;
   height: 16px;
-  border: 1px solid #2E2F4266;
+  border: 1px solid #2e2f4266;
   border-radius: 2px;
   display: flex;
   align-items: center;
