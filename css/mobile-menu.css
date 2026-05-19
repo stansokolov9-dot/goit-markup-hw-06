@@ -55,8 +55,6 @@
 .mobile-menu-active {
   color: #404bbf;
 }
-.mobile-address {
-}
 .mobile-address-list {
   display: flex;
   flex-direction: column;
