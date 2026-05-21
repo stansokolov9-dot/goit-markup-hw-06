@@ -33,6 +33,9 @@
 .portfolio-item:hover .overlay {
   transform: translateY(0);
 }
+.mobile-overlay .overlay {
+  transform: translateY(0);
+}
 .portfolio-image-wrapper {
   position: relative;
   overflow: hidden;
