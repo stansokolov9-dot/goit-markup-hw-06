@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+
   .logo {
     padding: 16px;
   }
@@ -46,9 +46,6 @@
   .portfolio-image-wrapper {
     width: 288px;
   }
-  /* .mobile-overlay .overlay {
-    transform: translateY(0);
-  } */
   .footer {
     padding: 96px 0;
   }
@@ -70,7 +67,7 @@
   .footer-form-row {
     flex-direction: column;
   }
-}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -186,6 +183,9 @@
   .container {
     max-width: 1158px;
     padding: 0 15px;
+  }
+  .nav {
+    display: flex;
   }
   .section-hero {
     background-image:
