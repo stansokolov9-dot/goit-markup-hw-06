@@ -49,7 +49,6 @@
 }
 .header-link.current {
   color: #404bbf;
-  margin-bottom: 1px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -129,7 +128,6 @@
   .address ul {
     display: flex;
     flex-direction: row;
-    gap: 40px;
     align-items: center;
   }
 }
