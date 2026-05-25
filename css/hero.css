@@ -99,11 +99,6 @@
       url("../images/hero-bg@2x.jpg");
   }
 }
-@media screen and (min-width: 768px) {
-  .hero-title {
-    margin: 0 auto 48px;
-  }
-}
 @media screen and (min-width: 1158px) {
   .section-hero {
     padding: 188px 0;

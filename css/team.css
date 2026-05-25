@@ -1,4 +1,4 @@
-  {
+.section-team {
   background-color: #f4f4fd;
   padding: 96px 0;
 }
@@ -29,7 +29,8 @@
 }
 .team-card {
   padding: 32px 16px;
-}.team-item {
+}
+.team-item {
   width: 264px;
 }
 .name {
@@ -91,23 +92,20 @@
   fill: #f4f4fd;
 }
 @media screen and (min-width: 768px) {
-   .container {
+  .container {
     max-width: 768px;
   }
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-     column-gap: 24px;
+    column-gap: 24px;
     row-gap: 64px;
-  }
-  .team-item {
-    width: calc((100% - 24px) / 2);
   }
 }
 @media screen and (min-width: 1158px) {
   .section-team {
-      padding: 120px 0;
+    padding: 120px 0;
   }
   .container {
     max-width: 1158px;
@@ -115,8 +113,5 @@
   .team-list {
     flex-wrap: nowrap;
     gap: 24px;
-  }
-  .team-item {
-    width: calc((100% - 72px) / 4);
   }
 }

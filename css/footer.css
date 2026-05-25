@@ -170,18 +170,19 @@
   }
 }
 @media screen and (min-width: 1158px) {
-  .footer {
+   .footer {
     padding: 100px 0;
   }
   .footer .container {
     flex-direction: row;
     align-items: baseline;
     gap: 0;
+    padding: 0;
   }
   .footer-left {
     margin-right: 120px;
   }
-  .footer-middle {
-    margin-right: 80px;
+  .footer-right {
+    margin-left: auto;
   }
 }
