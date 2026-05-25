@@ -66,6 +66,7 @@
       url("../images/hero-bg.jpg");
   }
   .hero-title {
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
@@ -102,5 +103,8 @@
 @media screen and (min-width: 1158px) {
   .section-hero {
     padding: 188px 0;
+  }
+  .hero-title {
+    margin: 0 auto 48px;
   }
 }
