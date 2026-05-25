@@ -73,8 +73,8 @@
 }
 .header-contact {
   display: block;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -112,8 +112,8 @@
   }
   .header-contact {
     font-weight: 400;
-    font-size: 12px;  
-    line-height: 1.7;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
   }
   .menu-btn {
@@ -125,9 +125,18 @@
     max-width: 1158px;
     padding: 0 15px;
   }
+  .header-left {
+    gap: 76px;
+  }
   .address ul {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 40px;
+  }
+  .header-contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 }
